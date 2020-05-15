@@ -55,7 +55,7 @@ function printGraph(){
     new Chart(ctx, {
         type: 'horizontalBar',
         data: {
-            labels: ["HTML", "CSS", "JAVASCRIPT", "JQUERY", "VUE.JS", "PHP", "MySQL", "LARAVEL"],
+            labels: ["Stage Combat", "Physical Theatre", "Commedia dell’arte", "Acrobatics", "Body Percussion", "Improvisation", "Qi Qong", "Singing"],
             datasets: [{
                 label: 'Skills',
                 data: [93, 95, 80, 83, 77, 80, 80, 87],
