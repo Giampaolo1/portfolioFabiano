@@ -55,7 +55,10 @@
     .menu-branding .portrait {
       width: 250px;
       height: 250px;
-      background: url("img/portrait.jpg");
+      background: url("../img/favicon.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
       border-radius: 50%;
       border: solid 3px #ee801a; }
   .menu .nav-item {
@@ -344,10 +347,10 @@ canvas {
   .menu-branding {
     height: 25vh;
     transform: translate3d(100%, 0, 0); }
-      .menu-branding .portrait {
-      background: url("img/portrait.jpg");
+      /* .menu-branding .portrait {
+      background: url("../img/portrait.jpg");
       width: 150px;
-      height: 150px; }
+      height: 150px; } */
 
   .about-info {
     justify-items: center;
