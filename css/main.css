@@ -364,7 +364,6 @@ canvas {
   .projects {
     grid-template-columns: 1fr; } }
 
-  .item img {
-    height: 177px;
-    width:310px;
+  .about-info img {
+    width: 80%;
   }
