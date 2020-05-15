@@ -35,18 +35,18 @@ function init(){
         }
     }
 
-    $(".fa-instagram, .fa-file-alt, .fa-linkedin, .fa-facebook , .fa-youtube , .fa-id-card, .fa-vimeo ").mouseover(function () {
+    $(".fa-instagram, .fa-facebook, .fa-linkedin, .fa-github , .fa-skype").mouseover(function () {
         $(this).addClass("fa-spin")
     })
-    $(".fa-instagram, .fa-file-alt, .fa-linkedin, .fa-facebook , .fa-youtube, .fa-id-card, .fa-vimeo ").mouseleave(function () {
+    $(".fa-instagram, .fa-facebook, .fa-linkedin, .fa-github , .fa-skype").mouseleave(function () {
         $(this).removeClass("fa-spin")
     })
 
     printGraph();
-
+    
 }
 
-//typed js
+//typed js 
 
 
 
@@ -55,10 +55,10 @@ function printGraph(){
     new Chart(ctx, {
         type: 'horizontalBar',
         data: {
-            labels: ["Stage Combat", "Physical Theatre", "Commedia dell’arte", "Acrobatics", "Body Percussion", "Qi Qong", "Improvisation", "Singing "],
+            labels: ["HTML", "CSS", "JAVASCRIPT", "JQUERY", "VUE.JS", "PHP", "MySQL", "LARAVEL"],
             datasets: [{
                 label: 'Skills',
-                data: [90, 85, 78, 70, 50, 65, 60, 60],
+                data: [93, 95, 80, 83, 77, 80, 80, 87],
                 backgroundColor: [
                     "#d58300",
                     "#e38e00",
@@ -72,7 +72,7 @@ function printGraph(){
                 /* borderColor: [
 
                     'rgba(255, 159, 64, 1)'
-
+                    
                 ], */
 
                 borderWidth: 1
@@ -106,12 +106,5 @@ function printGraph(){
     });
 }
 
-// IDEA: Change language to the validate output
-
-//   $("form#my-form").validate({
-//     lang: 'en'
-//   });
-// });
-
-
 $(document).ready(init);
+
