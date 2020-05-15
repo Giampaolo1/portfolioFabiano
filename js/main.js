@@ -35,18 +35,18 @@ function init(){
         }
     }
 
-    $(".fa-instagram, .fa-facebook, .fa-linkedin, .fa-github , .fa-skype").mouseover(function () {
+    $(".fa-instagram, .fa-facebook, .fa-linkedin, .fa-youtube , .fa-vimeo, .fa-id-card").mouseover(function () {
         $(this).addClass("fa-spin")
     })
-    $(".fa-instagram, .fa-facebook, .fa-linkedin, .fa-github , .fa-skype").mouseleave(function () {
+    $(".fa-instagram, .fa-facebook, .fa-linkedin, .fa-youtube , .fa-vimeo, .fa-id-card").mouseleave(function () {
         $(this).removeClass("fa-spin")
     })
 
     printGraph();
-    
+
 }
 
-//typed js 
+//typed js
 
 
 
@@ -72,7 +72,7 @@ function printGraph(){
                 /* borderColor: [
 
                     'rgba(255, 159, 64, 1)'
-                    
+
                 ], */
 
                 borderWidth: 1
@@ -107,4 +107,3 @@ function printGraph(){
 }
 
 $(document).ready(init);
-

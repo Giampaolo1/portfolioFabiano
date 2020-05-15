@@ -187,16 +187,23 @@ main {
     main .icons a {
       padding: 0.4rem;
       transition: all 0.5s ease-out; }
-    main .icons .instagram:hover {
-      color: #d43519; }
-    main .icons .facebook:hover {
-      color: #3b5998; }
-    main .icons .linkedin:hover {
-      color: #3b6c88; }
-    main .icons .github:hover {
-      color: #9919d4; }
-    main .icons .skype:hover {
-      color: #00aff0; }
+
+      main .icons .linkedin:hover {
+        color: lightblue; }
+      main .icons .instagram:hover {
+        color: #3b5998; }
+      main .icons .facebook:hover {
+        color: blue; }
+
+      main .icons .youtube:hover {
+          color: red; }
+      main .icons .vimeo:hover {
+          color: orange; }
+      main .icons .cv:hover {
+          color: yellow; }
+
+
+
   main#home {
     position: absolute;
     overflow: hidden; }
@@ -337,10 +344,10 @@ canvas {
   .menu-branding {
     height: 25vh;
     transform: translate3d(100%, 0, 0); }
-    /* .menu-branding .portrait {
+      .menu-branding .portrait {
       background: url("img/portrait.jpg");
       width: 150px;
-      height: 150px; } */
+      height: 150px; }
 
   .about-info {
     justify-items: center;
