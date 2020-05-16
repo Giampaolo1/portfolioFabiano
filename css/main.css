@@ -58,7 +58,7 @@
       background: url("../img/portrait.png");
       background-repeat: no-repeat;
       background-position: center;
-      background-size: contain;
+      background-size: cover;
       border-radius: 50%;
       border: solid 3px #ee801a; }
   .menu .nav-item {
@@ -222,10 +222,19 @@ main {
     grid-area: bioimage;
     margin: auto;
     border-radius: 50%;
-    border: #ee801a 3px solid; }
+    border: #ee801a 3px solid;
+
+    background: url("../img/favicon.JPG");
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
   .about-info .bio {
     grid-area: bio;
-    font-size: 1.5rem; }
+    font-size: 1rem; }
   .about-info .job-1 {
     grid-area: job1; }
   .about-info .job-2 {
@@ -353,7 +362,7 @@ canvas {
       height: 150px;
       background-repeat: no-repeat;
       background-position: center;
-      background-size: contain;
+      background-size: cover;
       border-radius: 50%;
       border: solid 3px #ee801a; }
 
