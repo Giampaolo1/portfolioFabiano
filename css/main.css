@@ -223,13 +223,6 @@ main {
     margin: auto;
     border-radius: 50%;
     border: #ee801a 3px solid;
-
-    background: url("../img/portrait.jpg");
-    width: 200px;
-    height: 200px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
   }
 
   .about-info .bio {
@@ -389,6 +382,6 @@ canvas {
   .projects {
     grid-template-columns: 1fr; } }
 
-    .about-info img {
-   width: 80%;
-   }
+.about-info img {
+  width: 40%;
+}
