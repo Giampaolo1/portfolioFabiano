@@ -223,6 +223,9 @@ main {
     margin: auto;
     border-radius: 50%;
     border: #ee801a 3px solid;
+
+    width: 200px;
+    height: 200px;
   }
 
   .about-info .bio {
@@ -381,7 +384,3 @@ canvas {
     font-size: 1.2rem; }
   .projects {
     grid-template-columns: 1fr; } }
-
-.about-info img {
-  width: 40%;
-}
