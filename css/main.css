@@ -223,9 +223,9 @@ main {
     margin: auto;
     border-radius: 50%;
     border: #ee801a 3px solid;
-    
-    width: 45%;
-    height: 85%;
+    /* IDEA: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+    width: 225px;
+    height: 225px;
   }
 
   .about-info .bio {
